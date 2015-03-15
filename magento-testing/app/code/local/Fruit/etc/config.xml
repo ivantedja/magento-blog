@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Tedja_Fruit>
+            <version>0.0.1</version>
+        </Tedja_Fruit>
+    </modules>
+    <global>
+        <models>
+            <fruit>
+                <class>Tedja_Fruit_Model</class>
+                <resourceModel>fruit_resource</resourceModel>
+            </fruit>
+            <fruit_resource>
+                <class>Tedja_Fruit_Model_Resource</class>
+                <entities>
+                    <fruit>
+                        <table>fruit</table>
+                    </fruit>
+                </entities>
+            </fruit_resource>
+        </models>
+        <resources>
+            <fruit_setup>
+                <setup>
+                    <module>Tedja_Fruit</module>
+                </setup>
+            </fruit_setup>
+        </resources>
+    </global>
+</config>
