@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<config>
+    <menu>
+        <fruit>
+            <title>Fruit</title>
+            <sort_order>100</sort_order>
+            <action>adminhtml/fruit</action>
+        </fruit>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <fruit>
+                        <title>Fruit</title>
+                        <sort_order>100</sort_order>
+                    </fruit>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

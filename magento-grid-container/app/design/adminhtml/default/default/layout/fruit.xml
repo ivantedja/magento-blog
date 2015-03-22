@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<layout>
+
+    <adminhtml_fruit_index>
+        <reference name="content">
+            <block type="fruit/adminhtml_fruit" name="fruit"/>
+        </reference>
+    </adminhtml_fruit_index>
+
+</layout>
